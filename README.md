@@ -7,10 +7,10 @@ It includes
 
 - `td.any()` as an alias for `td.matchers.anything()`
 - `td.verifyOnce(..)` as an alias for `td.verify(.., { times: 1 })`
+- `td.verifyNever(..)` as an alias for `td.verify(.., { times: 0 })`
 
 It will include
 
-- `td.verifyNever(..)` as an alias for `td.verify(.., { times: 0 })`
 - `td.verifyNoFurtherInvocations(object)` as an alias for calling `td.verify(object.method, { ignoreExtraArgs: true, times: 0 })` on all methods
 
 I am also considering
