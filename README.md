@@ -6,10 +6,10 @@ First of all, [testdouble.js](https://github.com/testdouble/testdouble.js) is ex
 It includes
 
 - `td.any()` as an alias for `td.matchers.anything()`
+- `td.verifyOnce(..)` as an alias for `td.verify(.., { times: 1 })`
 
 It will include
 
-- `td.verifyOnce(..)` as an alias for `td.verify(.., { times: 1 })`
 - `td.verifyNever(..)` as an alias for `td.verify(.., { times: 0 })`
 - `td.verifyNoFurtherInvocations(object)` as an alias for calling `td.verify(object.method, { ignoreExtraArgs: true, times: 0 })` on all methods
 
