@@ -1,6 +1,8 @@
 Convenience stuff for testdouble.js
 ===================================
 
+[![Build Status](https://travis-ci.org/pingvinen/testdoublejs-convenience.svg?branch=master)](https://travis-ci.org/pingvinen/testdoublejs-convenience)
+
 First of all, [testdouble.js](https://github.com/testdouble/testdouble.js) is excellent. This package merely adds some convenience methods that I feel help make my tests more semantic and thereby easier to read and maintain.
 
 It includes
